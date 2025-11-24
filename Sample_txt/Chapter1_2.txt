@@ -1,0 +1,9 @@
+System|none|【系統訊息】成功跳轉至 Chapter1_2.txt！
+BG|Background.jpg|（如果這裡能正常顯示，代表 storyIndex 已成功重置為 0）
+0d00|happy|哇！我們真的來到了另一個檔案裡！
+abc|happy|太神奇了，上一秒我們還在測試背景切換呢。
+玩家|none|看來「無限擴充章節」的功能是可行的。
+0d00|happy|那我們的冒險就可以一直寫下去了！
+System|none|【跨章節測試圓滿結束】
+GOTO|END
+#END
