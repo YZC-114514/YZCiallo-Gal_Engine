@@ -1,0 +1,19 @@
+System|none|【雙背景切換測試：啟動】
+BG|Background.jpg|初始場景：Background...（請確保資料夾有此圖）
+0d00|happy|嗨！abc，這裡是我們熟悉的第一個場景。
+abc|happy|沒錯，但是聽說玩家帶來了一張新地圖？
+玩家|none|是的，我準備了一張叫 bg_2 的圖片。
+0d00|happy|真令人期待！那我們馬上移動過去看看吧？
+BG|bg_2.jpg|（啟動轉場引擎，前往 bg_2...）
+abc|happy|哇！成功了！我們現在已經在 bg_2 的場景裡了！
+0d00|happy|這裡的風景果然不一樣呢。玩家，你覺得如何？
+CHOICE|我覺得很棒:Label_Good,我想回原本的地方:Label_Back
+#Label_Good
+玩家|none|這裡看起來很不錯，很有新鮮感。
+abc|happy|太好了！那我們就在這裡多待一會兒吧。
+NEXT_CHAPTER|Chapter1_2.txt
+#Label_Back
+玩家|none|我還是比較習慣原本的地方。
+BG|Background.jpg|（正在切換回 Background...）
+0d00|happy|沒問題，那我們就回來了。還是家裡最舒服。
+NEXT_CHAPTER|Chapter1_2.txt
