@@ -16,6 +16,14 @@ public class TitleScreen extends JPanel {
         });
          this.add(startButton);
 
+        JButton loadButton = new JButton("讀取存檔");
+        loadButton.setBounds(width/2 - 100, height/2+50 +130, 200, 50);
+        loadButton.addActionListener(e->{
+            game.openLoadMenu();
+        });
+        this.add(loadButton);
+        
+
     }
     
 }
